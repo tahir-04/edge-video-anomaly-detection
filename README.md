@@ -1,6 +1,6 @@
-# 🚀 Edge AI for Real-Time Video Anomaly Detection
+# Edge AI for Real-Time Video Anomaly Detection
 
-## 📌 Project Overview
+## Project Overview
 This project implements an **unsupervised CNN–LSTM Autoencoder** to detect anomalous
 activities in video streams. The model is trained **only on normal videos** and
 identifies anomalies using **reconstruction error thresholding**.
@@ -9,7 +9,7 @@ The system is optimized for **edge deployment** and does not require labeled ano
 
 ---
 
-## 🎯 Key Features
+## Key Features
 - Unsupervised anomaly detection
 - CNN for spatial feature extraction
 - LSTM for temporal modeling
@@ -19,7 +19,7 @@ The system is optimized for **edge deployment** and does not require labeled ano
 
 ---
 
-## 📊 Dataset
+##  Dataset
 **UCSD Pedestrian Dataset**
 - Training: Normal pedestrian walking videos
 - Testing: Normal + anomalous activities (bikes, carts, vehicles)
@@ -29,7 +29,7 @@ The system is optimized for **edge deployment** and does not require labeled ano
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 - **Encoder**: CNN + LSTM
 - **Decoder**: LSTM + CNN
 - **Loss Function**: Mean Squared Error (MSE)
@@ -37,7 +37,7 @@ The system is optimized for **edge deployment** and does not require labeled ano
 
 ---
 
-## 📈 Results
+##  Results
 - Recall (Anomaly Detection Rate): ~27%
 - Precision: ~44%
 - Threshold-based detection
@@ -47,7 +47,7 @@ The system is optimized for **edge deployment** and does not require labeled ano
 
 ---
 
-## ⚙️ How to Run
+##  How to Run
 1. Open the notebook in **Google Colab**
 2. Run all cells from top to bottom
 3. Dataset will be downloaded automatically
@@ -56,7 +56,7 @@ The system is optimized for **edge deployment** and does not require labeled ano
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 - Python
 - TensorFlow / Keras
 - OpenCV
@@ -65,7 +65,7 @@ The system is optimized for **edge deployment** and does not require labeled ano
 
 ---
 
-## 💡 Why Autoencoder?
+##  Why Autoencoder?
 - No need for labeled anomaly data
 - Can detect unseen anomaly types
 - Suitable for real-world surveillance
@@ -73,6 +73,6 @@ The system is optimized for **edge deployment** and does not require labeled ano
 
 ---
 
-## 📌 Author
+##  Author
 Mohamed Tahir
 
