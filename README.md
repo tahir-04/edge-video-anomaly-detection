@@ -73,6 +73,4 @@ The system is optimized for **edge deployment** and does not require labeled ano
 
 ---
 
-##  Author
-Mohamed Tahir
 
